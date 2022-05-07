@@ -1547,11 +1547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Buseet-G3\\source\\repos\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
+      "projectUniqueName": "D:\\Projects\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
       "projectName": "EntityFramework",
-      "projectPath": "C:\\Users\\Buseet-G3\\source\\repos\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
+      "projectPath": "D:\\Projects\\EntityFramework\\EntityFramework\\EntityFramework.csproj",
       "packagesPath": "C:\\Users\\Buseet-G3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Buseet-G3\\source\\repos\\EntityFramework\\EntityFramework\\obj\\",
+      "outputPath": "D:\\Projects\\EntityFramework\\EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Buseet-G3\\AppData\\Roaming\\NuGet\\NuGet.Config",

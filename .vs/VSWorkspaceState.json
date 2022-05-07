@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EntityFramework",
+    "\\EntityFramework\\Entities",
+    "\\EntityFramework\\Migrations"
+  ],
+  "SelectedNode": "\\EntityFramework\\ApplicationDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}
