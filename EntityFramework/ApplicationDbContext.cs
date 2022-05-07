@@ -1,5 +1,6 @@
 ﻿using EntityFramework.Configurations;
 using EntityFramework.Entities;
+using EntityFramework.Entities.OneToOneRelation;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityFramework
@@ -8,6 +9,7 @@ namespace EntityFramework
     {
         public DbSet<Entities.User> Users { get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
@@ -41,7 +43,7 @@ namespace EntityFramework
 
             // Computed column 
             modelBuilder.Entity<Entities.User>().Property(b => b.DisplayedName)
-                .HasComputedColumnSql("[FirstName] + ', ' + [LastName]");
+                .HasComputedColumnSql("CONCAT_WS(' ', FirstName, LastName)");
 
             /** Primary Key Default Value - if we add an Id with a not int type like byte it will not be 
              auto generated so if we want to make it auto generated we will do this **/

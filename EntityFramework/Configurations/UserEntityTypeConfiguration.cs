@@ -7,7 +7,8 @@ namespace EntityFramework.Configurations
     {
         public void Configure(EntityTypeBuilder<Entities.User> builder)
         {
-            builder.Property(entity => entity.Name).IsRequired();
+            builder.Property(entity => entity.FirstName).IsRequired();
+            builder.Property(entity => entity.LastName).IsRequired();
         }
     }
 }

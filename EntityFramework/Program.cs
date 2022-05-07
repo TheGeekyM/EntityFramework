@@ -7,7 +7,8 @@ var context = new ApplicationDbContext();
 
 var user = new EntityFramework.Entities.User()
 {
-    Name = "user 1"
+    FirstName = "user",
+    LastName = "user "
 };
 
 context.Users.Add(user);

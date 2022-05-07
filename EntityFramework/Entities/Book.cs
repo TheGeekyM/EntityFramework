@@ -1,9 +1,10 @@
 ﻿namespace EntityFramework.Entities
 {
-    public class User
+    public class Book
     {
-        public int Id { get; set; }
-        public string Name { get; set; } = null!;
-        public List<Post> Posts { get; set; } = null!; // Navigation Property
+        [System.ComponentModel.DataAnnotations.Key]
+        public int BookKey { get; set; }
+
+        public string Name { get; set; }
     }
 }
